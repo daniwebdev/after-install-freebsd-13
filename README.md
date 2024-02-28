@@ -1,11 +1,8 @@
 # Step by Step after install FreeBSD 13 Release
 
-## Update Package
-```
-pkg update
-```
+# Upgrade Releaes to 13.2 (latest from 13 whichis still security support after 2026
 
-## Upgrade to freebsd 13.2 (latest from 13)
+## Update and Upgrade
 
 ```
 freebsd-update fetch
@@ -27,4 +24,10 @@ cat /etc/os-release
 ```
 pkg update
 pkg upgrade
+```
+
+## update to 13.2
+
+```
+freebsd-update -r 13.2-RELEASE upgrade
 ```
