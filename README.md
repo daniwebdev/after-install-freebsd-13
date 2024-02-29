@@ -49,3 +49,7 @@ freebsd-update install
 ```
 pkg-static install -f pkg
 ```
+
+```
+portsnap fetch
+```
