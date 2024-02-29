@@ -31,3 +31,21 @@ pkg upgrade
 ```
 freebsd-update -r 13.2-RELEASE upgrade
 ```
+
+## Installing the downloaded 13.2 release updates
+
+```
+freebsd-update install
+```
+
+```
+sudo /usr/sbin/sshd -t
+```
+
+```
+freebsd-update install
+```
+
+```
+pkg-static install -f pkg
+```
